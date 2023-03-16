@@ -1,9 +1,11 @@
 import React from 'react';
 
-export default function Main() {
+const Main = () => {
   return (
-    <>
-      <h1>main</h1>
-    </>
+    <div>
+      <h1>Main</h1>
+    </div>
   );
-}
+};
+
+export default Main;
