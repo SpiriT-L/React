@@ -1,14 +1,19 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
+import Search from '../../components/Search/Search';
+import styles from './Main.module.scss';
 
 const Main = () => {
   return (
     <>
       <Helmet>
         <title>Main</title>
-        {/* <meta name="description" content="Beginner friendly page for learning React Helmet." /> */}
       </Helmet>
-      <h1>Main</h1>
+
+      <div className={styles.mainContainer}>
+        <h1>Main</h1>
+        <Search />
+      </div>
     </>
   );
 };

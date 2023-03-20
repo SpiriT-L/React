@@ -1,8 +1,8 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
 import { HelmetProvider } from 'react-helmet-async';
-import Header from './components/header/Header';
-import Main from './Pages/main/main';
+import Header from './components/Header/Header';
+import Main from './Pages/main/Main';
 import About from './Pages/about/About';
 import Error from './Pages/error/Error';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
