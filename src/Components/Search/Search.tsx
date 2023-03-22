@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-// import axios from 'axios';
 import styles from './Search.module.scss';
 import SearchIcon from '@mui/icons-material/Search';
 
