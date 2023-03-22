@@ -1,4 +1,3 @@
-import React from 'react';
 import { Helmet } from 'react-helmet-async';
 import Search from '../../components/Search/Search';
 import styles from './Main.module.scss';
