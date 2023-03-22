@@ -14,8 +14,6 @@ const Main = () => {
         <h1>Main</h1>
         <Search />
         <Card />
-        <Card />
-        <Card />
       </div>
     </>
   );

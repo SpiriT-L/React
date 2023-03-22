@@ -1,6 +1,6 @@
 import './App.scss';
 import { HelmetProvider } from 'react-helmet-async';
-import Header from './Components/Header/Header';
+import Header from './components/Header/Header';
 import Main from './Pages/main/main';
 import About from './Pages/about/About';
 import Error from './Pages/error/Error';
