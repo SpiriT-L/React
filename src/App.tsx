@@ -1,8 +1,9 @@
 import './App.scss';
 import { HelmetProvider } from 'react-helmet-async';
 import Header from './components/Header/Header';
-import Main from './Pages/main/main';
+import Main from './Pages/main/Main';
 import About from './Pages/about/About';
+import Forms from './Pages/forms/Forms';
 import Error from './Pages/error/Error';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
@@ -16,6 +17,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Main />} />
             <Route path="/about" element={<About />} />
+            <Route path="/forms" element={<Forms />} />
             <Route path="*" element={<Error />} />
           </Routes>
         </Router>
