@@ -1,0 +1,48 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  padding: 0px 10px 0px 10px;
+  margin: 0 auto;
+}
+.inputBlok {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.radio {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  h4 {
+    margin: 0px 150px 0px 0px;
+  }
+}
+.label {
+  margin: 0px 10px 0px 0px;
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  padding: 0px 10px 0px 10px;
+  width: 300px;
+  height: 30px;
+  border-radius: 13px;
+  border: 2px solid #8000ff;
+  outline: none;
+  font-size: 22px;
+}
+.inputRadio {
+  border: 2px solid #8000ff;
+}
+.checkbox {
+  margin: 0px 10px 0px 0px;
+}
+.inputBlokChecked{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
