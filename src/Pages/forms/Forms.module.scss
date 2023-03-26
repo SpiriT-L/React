@@ -1,0 +1,89 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  padding: 0px 10px 0px 10px;
+  margin: 0 auto;
+}
+.inputBlock {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.radio {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  h4 {
+    margin: 0px 150px 0px 0px;
+  }
+}
+.label {
+  margin: 0px 10px 0px 0px;
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  padding: 10px 10px 10px 10px;
+  width: 300px;
+  height: 40px;
+  border-radius: 13px;
+  border: 2px solid #8000ff;
+  outline: none;
+  font-size: 22px;
+}
+.inputRadio {
+  border: 2px solid #8000ff;
+}
+.checkbox {
+  margin: 0px 10px 0px 0px;
+}
+.inputBlockChecked {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.buttonBlock {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.formButton {
+  width: 100px;
+  padding: 5px;
+  font-size: 22px;
+  border-radius: 22px;
+  border: 2px solid #8000ff;
+  cursor: pointer;
+  &:active {
+    border: 2px solid green;
+  }
+}
+
+.select {
+  display: flex;
+  align-items: center;
+  padding: 0px 10px 0px 10px;
+  width: 300px;
+  height: 40px;
+  border-radius: 13px;
+  border: 2px solid #8000ff;
+  outline: none;
+  font-size: 20px;
+}
+
+.inputFile{
+  display: flex;
+  align-items: center;
+  padding: 5px 10px 5px 10px;
+  width: 300px;
+  height: 40px;
+  border-radius: 13px;
+  border: 2px solid #8000ff;
+  outline: none;
+  font-size: 16px;
+  background-color: #fff;
+}
