@@ -5,16 +5,16 @@ import Card from '../../components/Card/Card';
 
 const Main = () => {
   return (
-    <>
+    <div>
       <Helmet>
         <title>Main</title>
       </Helmet>
-      <div className={styles.mainContainer}>
+      <div className={styles.container}>
         <h1>Main</h1>
         <Search />
         <Card />
       </div>
-    </>
+    </div>
   );
 };
 
