@@ -9,7 +9,6 @@ const Main = () => {
       <Helmet>
         <title>Main</title>
       </Helmet>
-
       <div className={styles.mainContainer}>
         <h1>Main</h1>
         <Search />
