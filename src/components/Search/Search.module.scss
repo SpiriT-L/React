@@ -1,0 +1,33 @@
+.formImput {
+  display: flex;
+  justify-content: center;
+}
+
+.searchImput {
+  width: 100%;
+  max-width: 500px;
+  height: 50px;
+  border: 2px solid #8000ff;
+  border-radius: 25px;
+  font-size: 24px;
+  padding: 0px 50px 0px 50px;
+  outline: none;
+  position: relative;
+  display: flex;
+  z-index: 1;
+}
+
+
+.searchIcon {
+  position: absolute;
+  top: 14px;
+  left: 0;
+  color: #8000ff;
+  position: relative;
+  z-index: 2;
+  margin-right: -38px;
+}
+
+.searchIcon + input {
+  padding-left: 45px;
+}
